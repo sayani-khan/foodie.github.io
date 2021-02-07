@@ -6,21 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>index.html</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-   
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-   <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
-<!--<link rel="stylesheet" href="assets/css/Header-Blue.css">-->
-<link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css">
    
 </head>
 
 <body style="font-family: 'Julius Sans One', sans-serif;">
     <nav class="navbar navbar-light navbar-expand-md navigation-clean-button shadow stroke">
-        <div class="container"><a class="navbar-brand" href="#" style="font-family: 'Julius Sans One', sans-serif;">Foodie</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1">
+        <div class="container">
+			<a class="navbar-brand" href="#" style="font-family: 'Julius Sans One', sans-serif;">Foodie</a>
+			<button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+              <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto" style="font-family: 'Source Sans Pro', sans-serif;">
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About us</a></li>
@@ -30,11 +29,11 @@
         </div>
         </div>
     </nav>
-    <!--<div class="shadow" data-bs-parallax-bg="true" style="height: 500px;background-image: url();background-position: center;background-size: cover;"></div>-->
+
 	
 	<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active shadow ">
+    <div class="carousel-item active shadow-lg shadow">
       <img src="assets/img/main.jpg" class="d-block w-100" alt="..." >
 		
 		 <div class="carousel-caption">
@@ -75,7 +74,9 @@
                 <div class="col-12 col-md-6">
                     <h2 class="about-h2">Heading</h2>
                     <p class="para-about">Every dish here has it's own story from the traditional recipes direct from Lebanon, to modern updates that tell the history of our team, of our cooks and chefs who have left their mark on our kitchen, and our serving staff and managers who have been ambassadors of hospitality. Our menu is never done - we find inspiration all around, in new ingredients, new approaches, and fresh takes on old standards. </p>
-					<button class="btn btn-primary" type="button">Book a table</button></div>
+					
+					<a class="btn btn-outline-dark" href="#dine" role="button">Book a table</a>
+				</div>
             </div>
         </div>
     </section>
@@ -203,8 +204,8 @@
                
 
             <div class="form-1 col-lg-8 col-md-6" data-form-type="formoid">
-                <div data-form-alert="" hidden="">Thanks for filling out the form!
-                </div>
+                <div data-form-alert="" hidden="">Thanks for filling out the form! </div>
+               
                 <form class="mbr-form" action="" method="" data-form-title="My Mobirise Form"><input type="hidden" data-form-email="true" >
                     <div class="row input-main">
                         <div class="col-lg-6 col-sm-12 input-wrap mt-2" data-for="firstname">
@@ -234,7 +235,22 @@
                     <div class="row input-main">
                         <div class="col-md-12 btn-row ">
                             <span class="input-group-btn ">
-                                <button href="" type="submit" class="btn btn-form btn-secondary display-4 m-3">Reserve a table</button>
+                                <button href="" type="submit" class="btn btn-form btn-secondary display-4 m-3" data-toggle="modal" data-target="#exampleModal">Reserve a table</button>
+
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								  <div class="modal-dialog">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Thank you!!</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										  <span aria-hidden="true">&times;</span>
+										</button>
+									  </div>
+
+									</div>
+								  </div>
+								</div>
                             </span>
                         </div>
                     </div>
@@ -243,7 +259,7 @@
         </div>
                 </div>
             </div>
-     
+
     </section>
 	
     <section id="blog" style="background-color: #fbf4eb;" class="mt-4">
@@ -296,7 +312,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-				<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="assets/img/client2.jpg" alt="">
+				<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="assets/img/team2.jpg" alt="">
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
             </div>
           </div>
@@ -314,7 +330,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4 class="title"><a href="">Magni Dolores</a></h4>
-				<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="assets/img/client2.jpg" alt="">
+				<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="assets/img/team4.jpg" alt="">
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
             </div>
           </div>
@@ -323,7 +339,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
               <h4 class="title"><a href="">Nemo Enim</a></h4>
-				<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="assets/img/client2.jpg" alt="">
+				<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="assets/img/team3.jpg" alt="">
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
             </div>
           </div>
@@ -367,23 +383,23 @@
              <h6 style="font-size: 23pt">Check Instagram Feed</h6>
          </div>
 		<div class="insta-img row">
-		<div class="insta-img col-2 m-0 p-0">
-             <img src="assets/img/index.jpg" alt="" class="img-fluid">
+		<div class="insta-img col-4 col-md-2 m-0 p-0">
+             <img src="assets/img/insta.jpg" alt="" class="img-fluid">
            
          </div>	
-			<div class="insta-img col-2 m-0 p-0">
-             <img src="assets/img/index.jpg" alt=""  class="img-fluid">
+			<div class="insta-img col-4 col-md-2 m-0 p-0">
+             <img src="assets/img/insta1.jpg" alt=""  class="img-fluid">
            </div>
-			<div class="insta-img col-2 m-0 p-0">
-             <img src="assets/img/index.jpg" alt=""  class="img-fluid">
+			<div class="insta-img col-4 col-md-2 m-0 p-0">
+             <img src="assets/img/insta2.jpg" alt=""  class="img-fluid">
            </div>	
-			<div class="insta-img col-2 m-0 p-0">
-             <img src="assets/img/index.jpg" alt=""  class="img-fluid">
+			<div class="insta-img col-4 col-md-2 m-0 p-0">
+             <img src="assets/img/insta3.jpg" alt=""  class="img-fluid">
            </div>	
-			<div class="insta-img col-2 m-0 p-0">
-             <img src="assets/img/index.jpg" alt=""  class="img-fluid">
+			<div class="insta-img col-4 col-md-2 m-0 p-0">
+             <img src="assets/img/insta4.jpg" alt=""  class="img-fluid">
            </div>	
-			<div class="insta-img col-2 m-0 p-0">
+			<div class="insta-img col-4 col-md-2 m-0 p-0">
              <img src="assets/img/index.jpg" alt=""  class="img-fluid">
            </div>	
            </div>	
@@ -398,7 +414,7 @@
   <div class="container">
 	    <div class="fooot-text text-center stroke">
        
-              <a href="#" class="page-text px-2 ">home</a>
+              <a href="#" class="page-text px-2 ">Home</a>
               <a href="#" class="page-text px-2">About Us </a>
               <a href="#" class="page-text px-2">Our Menu  </a>
     
