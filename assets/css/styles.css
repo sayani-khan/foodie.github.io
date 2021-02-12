@@ -113,7 +113,8 @@ nav.fill ul li a:hover:after {
   font-size: 20px;
 }
 }
-
+.fa-color{color: #000000}
+.fa-color:hover{color: #fbf4eb}
 
 
 /*.carousel-item-next, .carousel-item-prev, .carousel-item.active {
@@ -255,7 +256,7 @@ img {
 
 .copyright{color: aliceblue}
 .page-text{display: inline-block;color: aliceblue}
-
+.page-text:hover{color: antiquewhite}
 
 .services .icon-box {
   padding: 30px;
